@@ -6,6 +6,7 @@ import numpy as np
 # To compile and install locally run "python setup.py build_ext --inplace"
 # To install library to Python site-packages run "python setup.py build_ext install"
 
+"""
 ext_modules = [
     Extension(
         'ochumanApi._mask',
@@ -14,6 +15,7 @@ ext_modules = [
         extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
     )
 ]
+"""
 
 setup(name='ochumanApi',
       packages=['ochumanApi'],
